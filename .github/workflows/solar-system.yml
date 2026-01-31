@@ -52,7 +52,7 @@
       needs: 
         - docker
       environment:
-        name: developement
+        name: development
       steps:
         - name: Install Cluster
           uses: helm/kind-action@v1
